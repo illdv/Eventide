@@ -31,4 +31,7 @@ var fixed_offset = 100;
 $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000);
 e.preventDefault();
 });
+$(document).ready(function() {
+    $("head").append("<link rel='stylesheet' href='css/select2.min.css' />");
+})
 });
