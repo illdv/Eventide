@@ -6,7 +6,7 @@ $(function() {
   $('.collapse').on('hide.bs.collapse', function() {
     $(this).prev().find('.glyphicon-minus-sign').removeClass('glyphicon-minus-sign').addClass('glyphicon-plus-sign')
   });
-  
+
 	$('#collapse1').collapse({
   show: true
 });
@@ -26,7 +26,7 @@ new WOW({
   offset: 100,
 }).init();
 
-$("body").on('click', '[href*="#"]', function(e){
+$("body").on('click', 'a[href^="#u"]', function(e){
 var fixed_offset = 100;
 $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000);
 e.preventDefault();
