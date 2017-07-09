@@ -5,7 +5,8 @@ $(function() {
     $(this).prev().find(".glyphicon-minus-sign").removeClass("glyphicon-minus-sign").addClass("glyphicon-plus-sign")
   }), $("#collapse1").collapse({
     show: !0
-  }), $("#register").validator({
+  }),
+  $("#uregister").validator({
     feedback: {
       success: "glyphicon-ok-sign",
       error: "glyphicon-remove-sign"
