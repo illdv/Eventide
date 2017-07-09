@@ -12,7 +12,7 @@ $(function() {
       error: "glyphicon-remove-sign"
     }
   }),  new WOW({
-    offset: 50
+    offset: 20
   }).init(), $("body").on("click", 'a[href^="#u"]', function(s) {
     $("html,body").stop().animate({
       scrollTop: $(this.hash).offset().top - 100
