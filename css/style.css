@@ -108,9 +108,14 @@ h2 {
 .btn-register {
   background: #7ea4e8
 }
-
+.btn-register{
+  background: #567CC0;
+}
 .btn-register:focus {
   outline: 1px solid #000
+}
+.btn:active {
+  text-decoration: none;
 }
 
 .glyphicon-chevron-right {
