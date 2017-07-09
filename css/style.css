@@ -104,19 +104,20 @@ h2 {
   text-decoration: none;
   color: #fff
 }
+.btn:active {
+  text-decoration: none;
+}
 
 .btn-register {
   background: #7ea4e8
 }
-.btn-register{
+.btn-register:hover{
   background: #567CC0;
 }
 .btn-register:focus {
   outline: 1px solid #000
 }
-.btn:active {
-  text-decoration: none;
-}
+
 
 .glyphicon-chevron-right {
   background-color: #fff;
