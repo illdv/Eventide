@@ -231,7 +231,8 @@ h2 {
     display: inline-block
   }
 
-  .btn:hover {
+  .btn:hover,
+  .btn:active {
     text-decoration: none;
     color: #fff
   }
