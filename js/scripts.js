@@ -11,12 +11,13 @@ $(function() {
       error: "glyphicon-remove-sign"
     }
   }),  new WOW({
-    offset: 100
+    offset: 50
   }).init(), $("body").on("click", 'a[href^="#u"]', function(s) {
     $("html,body").stop().animate({
       scrollTop: $(this.hash).offset().top - 100
     }, 1e3), s.preventDefault()
-  }), $(document).ready(function() {
-    $("head").append("<link rel='stylesheet' href='css/select2.min.css' />")
-  })
+  });
+  $('.plan').select2({
+    minimumResultsForSearch: Infinity
+  });
 });

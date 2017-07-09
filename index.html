@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +7,7 @@
   <title>Eventide</title>
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/animate.css" rel="stylesheet">
+  <link href="css/select2.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -25,8 +25,8 @@
               </h1>
             <h2>november 08-10 | sydney</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit Cumque quos ratione optio blanditis deserunt saepe iure unt odit atque eius voluptatum labore ex</p>
-            <a href="#uregister" class="btn btn-register">register<span class="glyphicon  glyphicon-chevron-right"></span></a>
-            <a href="#udiscover" class="btn btn-discover">discover</a>
+            <a href="#uregister" class="btn btn-register">register<span class="glyphicon  glyphicon-chevron-right" title="register event"></span></a>
+            <a href="#udiscover" class="btn btn-discover" title="go map">discover</a>
           </div>
         </div>
       </div>
@@ -45,7 +45,7 @@
         </div>
         <div class="col-md-6">
           <div class="event-tabs">
-            <ul class="nav nav-tabs nav-justified" role="tablist" style="margin-top:0">
+            <ul class="nav nav-tabs nav-justified" role="tablist">
               <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">LEARNING OBJECTIVE</a></li>
               <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">TARGET AUDIENCE</a></li>
             </ul>
@@ -81,28 +81,28 @@
         <p>Sed ut perspiciatis unde omnis istte natus error</p>
       </header>
       <div class="row">
-        <div class="col-sm-3 item wow flipInY" style="text-align: center">
+        <div class="col-sm-3 item wow flipInY">
           <a href="#" class="wrapper-img">
               <img class="img-circle" src="img/jobs.jpg" width="140" height="140" alt="speaker-img">
               <h4>edward</h4>
             </a>
           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque lau dantium, totam rem</p>
         </div>
-        <div class="col-sm-3 item wow flipInY" style="text-align: center" data-wow-delay="0.3s">
+        <div class="col-sm-3 item wow flipInY" data-wow-delay="0.3s">
           <a href="#" class="wrapper-img">
               <img class="img-circle" src="img/lucy.jpg" width="140" height="140" alt="speaker-img">
               <h4>lucy</h4>
             </a>
           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque lau dantium, totam rem</p>
         </div>
-        <div class="col-sm-3 item  wow flipInY" style="text-align: center" data-wow-delay="0.6s">
+        <div class="col-sm-3 item  wow flipInY"  data-wow-delay="0.6s">
           <a href="#" class="wrapper-img">
               <img class="img-circle" src="img/jobs.jpg" width="140" height="140" alt="speaker-img">
               <h4>nathan</h4>
             </a>
           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque lau dantium, totam rem</p>
         </div>
-        <div class="col-sm-3 item wow flipInY" style="text-align: center" data-wow-delay="0.9s">
+        <div class="col-sm-3 item wow flipInY"  data-wow-delay="0.9s">
           <a href="#" class="wrapper-img">
               <img class="img-circle" src="img/lucy.jpg" width="140" height="140" alt="speaker-img">
               <h4>kate</h4>
@@ -110,11 +110,11 @@
           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque lau dantium, totam rem</p>
         </div>
       </div>
-      <footer class="row" style="text-align: center" >
+      <footer class="row">
         <div class="row">
           <p class="col-md-6 col-md-offset-3">Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium</p>
         </div>
-        <div class="row  wow zoomIn" style="text-align: center">
+        <div class="row  wow zoomIn">
           <a href="#register" class="btn btn-register">register<span class="glyphicon glyphicon-chevron-right"></span></a>
         </div>
       </footer>
@@ -134,7 +134,7 @@
         </div>
         <div class="col-md-6">
           <div class="event-tabs">
-            <ul class="nav nav-tabs nav-justified" role="tablist" style="margin-top:0">
+            <ul class="nav nav-tabs nav-justified" role="tablist">
               <li role="presentation" class="active"><a href="#nov18" aria-controls="home" role="tab" data-toggle="tab">nov 18</a></li>
               <li role="presentation"><a href="#nov19" aria-controls="profile" role="tab" data-toggle="tab">nov 19</a></li>
               <li role="presentation"><a href="#nov20" aria-controls="profile" role="tab" data-toggle="tab">nov 20</a></li>
@@ -276,8 +276,7 @@
                 <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
               </div>
               <div class="form-group col-sm-3">
-                <select class="form-control plan" name="plan" style="  height: 50px;
-                width: 100%;">
+                <select class="form-control plan" name="plan">
                     <option class="hidden">Select Plan</option>
                     <option value="1">1 Day - $20</option>
                     <option value="2">2 Day - $25</option>
@@ -337,7 +336,7 @@
     </div>
     <div class="copyright">
       <div class="container">
-        <p style="position:relative">Copyright © 2015 Eventide<a href="#uheader" style="position:absolute; right:0; top:0;" ><span class="glyphicon glyphicon-chevron-up">Up</span></a></p>
+        <p>Copyright © 2015 Eventide<a href="#uheader"><span class="glyphicon glyphicon-chevron-up">Up</span></a></p>
       </div>
     </div>
   </footer>
@@ -347,6 +346,12 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPpwa2zR4ZXcpxHlLWG4l7u17eX5UZz_I" async defer></script>
   <script src="js/map.js" async defer></script>
   <script src="js/wow.min.js" async defer></script>
+  <script src="js/select2.full.min.js" async defer></script>
   <script src="js/scripts.js" async defer></script>
+  <script>
+  $(document).ready(function() {
+      $("head").append("<link rel='stylesheet'  href='css/select2.min.css' />");
+  })
+</script>
 </body>
 </html>
