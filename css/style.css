@@ -4,14 +4,14 @@ body{background:#fff;font-family:Ubuntu, sans-serif;font-size:16px;color:#828282
 a{font-family:Montserrat, sans-serif;font-weight:700;font-size:17px}
 img{max-width:100%;height:auto}
 h2{font-family:Montserrat, sans-serif;font-size:30px;text-transform:uppercase;color:#828689;margin-top:0;margin-bottom:15px}
-.main-header{background:url(../img/2.jpg) center no-repeat;background-size:cover;height:100vh;min-height:500px;padding:0 10px;margin-bottoGradientType=0m:90px}
+.main-header{background:url(../img/2.jpg) center no-repeat;background-size:cover;height:100vh;min-height:500px;padding:0 10px;margin-bottom:90px}
 .section-table{display:table;height:100%;width:100%}
 .section-row{display:table-row}
 .section-cell{display:table-cell;text-align:center;vertical-align:middle}
 .section-center{max-width:550px;display:inline-block}
 .main-header h1{font-family:Montserrat, sans-serif;font-size:30px;font-weight:700;color:#fff;text-transform:uppercase}
 .main-header h2{color:#fff;margin-top:15px} #carousel .item img{width: 100%} .main-header p{color:#fff;font-size:20px}
-.btn{font-family:Montserrat, sans-serif;color:#fff;text-transform:uppercase;padding:15.19px 0;margin:10px;border:none;width:157px;transition:background .5s;display:inline-block}
+.btn{font-family:Montserrat, sans-serif;color:#fff;text-transform:uppercase;padding:13.6px 0;margin:10px;border:none;width:157px;transition:background .5s;display:inline-block}
 .btn:hover{text-decoration:none;color:#fff}
 .btn:active{text-decoration:none;}
 .btn-register{background:#7ea4e8}
@@ -32,7 +32,7 @@ h2{font-family:Montserrat, sans-serif;font-size:30px;text-transform:uppercase;co
 .main-header h1{font-family:Montserrat, sans-serif;font-size:30px;font-weight:700;color:#fff;text-transform:uppercase}
 .main-header h2{color:#fff;margin-top:15px}
 .main-header p{color:#fff;font-size:20px}
-.btn{font-family:Montserrat, sans-serif;color:#fff;text-transform:uppercase;padding:15.19px 0;margin:10px;border:none;width:157px;transition:background .5s;display:inline-block}
+.btn{font-family:Montserrat, sans-serif;color:#fff;text-transform:uppercase;padding:13.6px 0;margin:10px;border:none;width:157px;transition:background .5s;display:inline-block}
 .btn:hover,
 .btn:active{text-decoration:none;color:#fff}
 .btn-register{background:#7ea4e8}
@@ -351,7 +351,7 @@ to{transform:perspective(400px)}
 .select2-container--default .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option{margin-left:-5em;padding-left:6em}
 .select2-container--default .select2-results__option--highlighted[aria-selected]{background-color:#5897fb;color:white}
 .select2-container--default .select2-results__group{cursor:default;display:block;padding:6px}
-.select2-container--classic .select2-selection--single{background-color:#f7f7f7;border:1px solid #aaa;border-radius:4px;outline:0;background-image:-webkit-linear-gradient(top, #fff 50%, #eee 100%);background-image:-o-linear-gradient(top, #fff 50%, #eee 100%);background-image:linear-gradient(to bottom, #fff 50%, #eee 100%);background-repeat:repeat-x;}
+.select2-container--classic .select2-selection--single{background-color:#f7f7f7;border:1px solid #aaa;border-radius:4px;outline:0;background-image:-webkit-linear-gradient(top, #fff 50%, #eee 100%);background-image:-o-linear-gradient(top, #fff 50%, #eee 100%);background-image:linear-gradient(to bottom, #fff 50%, #eee 100%);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFEEEEEE', GradientType=0)}
 .select2-container--classic .select2-selection--single:focus{border:1px solid #5897fb}
 .select2-container--classic .select2-selection--single .select2-selection__rendered{color:#444;}
 .select2-container--classic .select2-selection--single .select2-selection__clear{cursor:pointer;float:right;font-weight:bold;margin-right:10px}
